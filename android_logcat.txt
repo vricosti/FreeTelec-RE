@@ -1,0 +1,851 @@
+2024-04-27 22:29:35.137  1920-3962  ActivityTaskManager     system_server                        I  START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=fr.r0ro.android.FreeTelec cmp=fr.r0ro.android.FreeTelec/.FreeTelecActivity} from uid 10176
+2024-04-27 22:29:35.164  1920-2050  ActivityManager         system_server                        I  Start proc 1087:fr.r0ro.android.FreeTelec/u0a368 for pre-top-activity {fr.r0ro.android.FreeTelec/fr.r0ro.android.FreeTelec.FreeTelecActivity}
+2024-04-27 22:29:35.194  1087-1087  ziparchive              pid-1087                             W  Unable to open '/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.arm64_v8a.dm': No such file or directory
+2024-04-27 22:29:35.194  1087-1087  ziparchive              pid-1087                             W  Unable to open '/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.arm64_v8a.dm': No such file or directory
+2024-04-27 22:29:35.196  1087-1087  ziparchive              pid-1087                             W  Unable to open '/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.fr.dm': No such file or directory
+2024-04-27 22:29:35.196  1087-1087  ziparchive              pid-1087                             W  Unable to open '/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.fr.dm': No such file or directory
+2024-04-27 22:29:35.196  1087-1087  ziparchive              pid-1087                             W  Unable to open '/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.xxhdpi.dm': No such file or directory
+2024-04-27 22:29:35.196  1087-1087  ziparchive              pid-1087                             W  Unable to open '/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.xxhdpi.dm': No such file or directory
+2024-04-27 22:29:35.198  1087-1087  nativeloader            pid-1087                             D  Configuring clns-4 for other apk /data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/base.apk:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.arm64_v8a.apk:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.fr.apk:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.xxhdpi.apk. target_sdk_version=32, uses_libraries=, library_path=/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/lib/arm64:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/base.apk!/lib/arm64-v8a:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.fr.apk!/lib/arm64-v8a:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r
+2024-04-27 22:29:35.204  1087-1087  GraphicsEnvironment     pid-1087                             V  ANGLE Developer option for 'fr.r0ro.android.FreeTelec' set to: 'default'
+2024-04-27 22:29:35.211  1087-1087  FirebaseCrashlytics     pid-1087                             I  Initializing Firebase Crashlytics 18.2.11 for fr.r0ro.android.FreeTelec
+2024-04-27 22:29:35.257  1087-1087  FreeTelecApp            pid-1087                             I  ON CREATE
+2024-04-27 22:29:35.297  1087-1087  ClientCertificate       pid-1087                             I  commonName: CN=fr.r0ro.android.FreeTelec/blueline/blueline/Pixel 3/d31b7097-b29d-4a10-9605-10133972b0bf certName=CN=fr.r0ro.android.FreeTelec/blueline/blueline/Pixel 3/d31b7097-b29d-4a10-9605-10133972b0bf
+2024-04-27 22:29:35.309  1087-1137  FA                      pid-1087                             I  To enable faster debug mode event logging run:
+                                                                                                      adb shell setprop debug.firebase.analytics.app fr.r0ro.android.FreeTelec
+2024-04-27 22:29:35.864  1087-1087  ClientCertificate       fr.r0ro.android.FreeTelec            I  generated client cert=  [0]         Version: 3
+                                                                                                             SerialNumber: 1714249775847
+                                                                                                                 IssuerDN: CN=fr.r0ro.android.FreeTelec/blueline/blueline/Pixel 3/d31b7097-b29d-4a10-9605-10133972b0bf
+                                                                                                               Start Date: Sun Apr 18 13:37:42 GMT+02:00 2021
+                                                                                                               Final Date: Sun Feb 01 13:37:42 GMT+01:00 2099
+                                                                                                                SubjectDN: CN=fr.r0ro.android.FreeTelec/blueline/blueline/Pixel 3/d31b7097-b29d-4a10-9605-10133972b0bf
+                                                                                                               Public Key: null
+                                                                                                      Signature Algorithm: SHA256withRSA
+                                                                                                                Signature: 28e7deb920a7ba6a0b0424e744e4e8b9bd12cd69
+                                                                                                                           bcde696cbb73d4786e37132c63a91069e97e501a
+                                                                                                                           d1df7d446e37d9ec565650ff3508c2a95274bc4c
+                                                                                                                           59e6066a9af755445d8b5c14b7ba192fd0e2ea06
+                                                                                                                           fb1587d98669622cf36d7a4e06786d8405f728f5
+                                                                                                                           90b66d096f79eb8a319ba56abb1dcbfd451bf327
+                                                                                                                           3a15e55445be832f50d901493aeb54306c755609
+                                                                                                                           5b996c5ad02fd86d68969b965c3fbaaf6e902c0f
+                                                                                                                           3fe197368b1ba1881c7790182faf1317dc7f21df
+                                                                                                                           b5c02b7ed853fd3e02ff1e477c49a1e12320ca87
+                                                                                                                           d59ce4487640488d3159a44c2c8356542eb110c7
+                                                                                                                           8e3bee6076fcb0d0989d47f18ddbaccf637c357b
+                                                                                                                           f98aa405d534bc10dfd3a5c6e23d2c6d
+2024-04-27 22:29:35.947  1087-1087  FreeTelecActivity       fr.r0ro.android.FreeTelec            I  onCreate: blueline / Google / google
+2024-04-27 22:29:35.957  1087-1087  FreeTelecActivity       fr.r0ro.android.FreeTelec            I  tabHost androidx.fragment.app.FragmentTabHost{a90b127 VFE...... ......I. 0,0-0,0 #7f060087 app:id/tabhost}
+2024-04-27 22:29:35.961  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            W  CREATE INSTANCE: fr.r0ro.android.FreeTelec.FreeTelecActivity@7037dbe
+2024-04-27 22:29:35.961  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            I  using application context: fr.r0ro.android.FreeTelec.FreeTelecApp@1a6ef2
+2024-04-27 22:29:35.962  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            I  need to fetch remote config
+2024-04-27 22:29:35.963  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            I  need to fetch remote config
+2024-04-27 22:29:35.970  1087-1087  WearableListener        fr.r0ro.android.FreeTelec            I  WearableListener
+2024-04-27 22:29:35.970  1087-1087  WearableListener        fr.r0ro.android.FreeTelec            W  onCreate
+2024-04-27 22:29:35.972  1087-1087  WearableListener        fr.r0ro.android.FreeTelec            W  Connect
+2024-04-27 22:29:35.977  1087-1087  Compatibil...geReporter fr.r0ro.android.FreeTelec            D  Compat change id reported: 171228096; UID 10368; state: ENABLED
+2024-04-27 22:29:35.982 22078-22090 Finsky                  com.android.vending                  I  [140] mrf.ik(61): fr.r0ro.android.FreeTelec: Account determined from installer data - [9gcp-TYX-67YFe2D7SVg2D2YvQW2lncoedjPhNwGR9k]
+2024-04-27 22:29:35.983 22078-22090 Finsky                  com.android.vending                  I  [140] myx.b(909): Billing preferred account via installer for fr.r0ro.android.FreeTelec: [9gcp-TYX-67YFe2D7SVg2D2YvQW2lncoedjPhNwGR9k]
+2024-04-27 22:29:35.989 22078-22090 Finsky                  com.android.vending                  I  [140] mrf.ik(61): fr.r0ro.android.FreeTelec: Account determined from installer data - [9gcp-TYX-67YFe2D7SVg2D2YvQW2lncoedjPhNwGR9k]
+2024-04-27 22:29:35.989 22078-22090 Finsky                  com.android.vending                  I  [140] myx.b(909): Billing preferred account via installer for fr.r0ro.android.FreeTelec: [9gcp-TYX-67YFe2D7SVg2D2YvQW2lncoedjPhNwGR9k]
+2024-04-27 22:29:35.990  1087-1152  INAPP                   fr.r0ro.android.FreeTelec            I  onBillingSetupFinished: Response Code: OK, Debug Message: 
+2024-04-27 22:29:35.993 22078-22090 Finsky                  com.android.vending                  I  [140] mrf.ik(61): fr.r0ro.android.FreeTelec: Account determined from installer data - [9gcp-TYX-67YFe2D7SVg2D2YvQW2lncoedjPhNwGR9k]
+2024-04-27 22:29:35.993 22078-22090 Finsky                  com.android.vending                  I  [140] myx.b(909): Billing preferred account via installer for fr.r0ro.android.FreeTelec: [9gcp-TYX-67YFe2D7SVg2D2YvQW2lncoedjPhNwGR9k]
+2024-04-27 22:29:35.996 22078-659   Finsky                  com.android.vending                  I  [441] mrf.ik(61): fr.r0ro.android.FreeTelec: Account determined from installer data - [9gcp-TYX-67YFe2D7SVg2D2YvQW2lncoedjPhNwGR9k]
+2024-04-27 22:29:35.997 22078-659   Finsky                  com.android.vending                  I  [441] myx.b(909): Billing preferred account via installer for fr.r0ro.android.FreeTelec: [9gcp-TYX-67YFe2D7SVg2D2YvQW2lncoedjPhNwGR9k]
+2024-04-27 22:29:36.010  1087-1154  INAPP                   fr.r0ro.android.FreeTelec            I  found premium price: 1,99 €
+2024-04-27 22:29:36.010  1087-1087  INAPP                   fr.r0ro.android.FreeTelec            I  TelecActivity::onCreateView: premium false resolved: true
+2024-04-27 22:29:36.012  1087-1153  DynamiteModule          fr.r0ro.android.FreeTelec            I  Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:240304704
+2024-04-27 22:29:36.014  1087-1153  DynamiteModule          fr.r0ro.android.FreeTelec            I  Selected remote version of com.google.android.gms.ads.dynamite, version >= 240304704
+2024-04-27 22:29:36.015  1087-1153  DynamitePackage         fr.r0ro.android.FreeTelec            D  Instantiated singleton DynamitePackage.
+2024-04-27 22:29:36.015  1087-1153  DynamitePackage         fr.r0ro.android.FreeTelec            D  Instantiating com.google.android.gms.ads.ChimeraMobileAdsSettingManagerCreatorImpl
+2024-04-27 22:29:36.023  1920-3962  ConnectivityService     system_server                        D  requestNetwork for uid/pid:10368/1087 activeRequest: null callbackRequest: 1811 [NetworkRequest [ REQUEST id=1812, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+2024-04-27 22:29:36.025  1920-2396  WifiNetworkFactory      system_server                        D  got request NetworkRequest [ REQUEST id=1812, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.026  1920-2396  UntrustedW...orkFactory system_server                        D  got request NetworkRequest [ REQUEST id=1812, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.026  1920-2396  OemPaidWif...orkFactory system_server                        D  got request NetworkRequest [ REQUEST id=1812, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.026  1920-2396  MultiInter...orkFactory system_server                        D  got request NetworkRequest [ REQUEST id=1812, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.027  1087-1143  AdrenoGLES-0            fr.r0ro.android.FreeTelec            I  QUALCOMM build                   : 781e7d0, I46ff5fc46f
+                                                                                                    Build Date                       : 12/01/20
+                                                                                                    OpenGL ES Shader Compiler Version: EV031.31.04.01
+                                                                                                    Local Branch                     : QPR1
+                                                                                                    Remote Branch                    : 
+                                                                                                    Remote Branch                    : 
+                                                                                                    Reconstruct Branch               : 
+2024-04-27 22:29:36.027  1087-1143  AdrenoGLES-0            fr.r0ro.android.FreeTelec            I  Build Config                     : C P 11.0.1 AArch64
+2024-04-27 22:29:36.027  1087-1143  AdrenoGLES-0            fr.r0ro.android.FreeTelec            I  Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+2024-04-27 22:29:36.029  1087-1143  AdrenoGLES-0            fr.r0ro.android.FreeTelec            I  PFP: 0x016ee190, ME: 0x00000000
+2024-04-27 22:29:36.030  1087-1153  Ads                     fr.r0ro.android.FreeTelec            I  Updating ad debug logging enablement.
+2024-04-27 22:29:36.031  1087-1143  AdrenoUtils             fr.r0ro.android.FreeTelec            W  <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+2024-04-27 22:29:36.031  1087-1143  AdrenoUtils             fr.r0ro.android.FreeTelec            W  <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+2024-04-27 22:29:36.037  1087-1143  hw-ProcessState         fr.r0ro.android.FreeTelec            D  Binder ioctl to enable oneway spam detection failed: Invalid argument
+2024-04-27 22:29:36.040  1087-1161  Gralloc4                fr.r0ro.android.FreeTelec            I  mapper 4.x is not supported
+2024-04-27 22:29:36.041  1087-1161  Gralloc3                fr.r0ro.android.FreeTelec            W  mapper 3.x is not supported
+2024-04-27 22:29:36.043  1087-1161  Gralloc4                fr.r0ro.android.FreeTelec            W  allocator 4.x is not supported
+2024-04-27 22:29:36.044  1087-1161  Gralloc3                fr.r0ro.android.FreeTelec            W  allocator 3.x is not supported
+2024-04-27 22:29:36.049  1087-1153  ADS                     fr.r0ro.android.FreeTelec            I  loadAd
+2024-04-27 22:29:36.156  1920-2038  ActivityTaskManager     system_server                        I  Displayed fr.r0ro.android.FreeTelec/.FreeTelecActivity: +1s15ms
+2024-04-27 22:29:36.160  1087-1155  Ads                     fr.r0ro.android.FreeTelec            W  Update ad debug logging enablement as false
+2024-04-27 22:29:36.165  1087-1087  ziparchive              fr.r0ro.android.FreeTelec            W  Unable to open '/data/app/~~UZM0Iub8CvwlOVavHIOlhQ==/com.google.android.trichromelibrary_631211833-zJ8h8ywKSuNtSEINiQHvFg==/base.dm': No such file or directory
+2024-04-27 22:29:36.165  1087-1087  ziparchive              fr.r0ro.android.FreeTelec            W  Unable to open '/data/app/~~UZM0Iub8CvwlOVavHIOlhQ==/com.google.android.trichromelibrary_631211833-zJ8h8ywKSuNtSEINiQHvFg==/base.dm': No such file or directory
+2024-04-27 22:29:36.166  1087-1087  droid.FreeTele          fr.r0ro.android.FreeTelec            W  Entry not found
+2024-04-27 22:29:36.168  1087-1087  nativeloader            fr.r0ro.android.FreeTelec            D  Configuring clns-11 for other apk /data/app/~~UZM0Iub8CvwlOVavHIOlhQ==/com.google.android.trichromelibrary_631211833-zJ8h8ywKSuNtSEINiQHvFg==/base.apk. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~9xHQhdi-vvCiTcBHcz6-Zw==/com.google.android.webview-7Qd2u-3e3TCTqsrnls00pg==/lib/arm64:/data/app/~~9xHQhdi-vvCiTcBHcz6-Zw==/com.google.android.webview-7Qd2u-3e3TCTqsrnls00pg==/base.apk!/lib/arm64-v8a:/data/app/~~UZM0Iub8CvwlOVavHIOlhQ==/com.google.android.trichromelibrary_631211833-zJ8h8ywKSuNtSEINiQHvFg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+2024-04-27 22:29:36.177  1087-1087  nativeloader            fr.r0ro.android.FreeTelec            D  Configuring clns-12 for other apk /data/app/~~9xHQhdi-vvCiTcBHcz6-Zw==/com.google.android.webview-7Qd2u-3e3TCTqsrnls00pg==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~9xHQhdi-vvCiTcBHcz6-Zw==/com.google.android.webview-7Qd2u-3e3TCTqsrnls00pg==/lib/arm64:/data/app/~~9xHQhdi-vvCiTcBHcz6-Zw==/com.google.android.webview-7Qd2u-3e3TCTqsrnls00pg==/base.apk!/lib/arm64-v8a:/data/app/~~UZM0Iub8CvwlOVavHIOlhQ==/com.google.android.trichromelibrary_631211833-zJ8h8ywKSuNtSEINiQHvFg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+2024-04-27 22:29:36.181  1087-1087  WebViewFactory          fr.r0ro.android.FreeTelec            I  Loading com.google.android.webview version 123.0.6312.118 (code 631211833)
+2024-04-27 22:29:36.213  1087-1087  cr_WVCFactoryProvider   fr.r0ro.android.FreeTelec            I  Loaded version=123.0.6312.118 minSdkVersion=29 isBundle=true multiprocess=true packageId=2
+2024-04-27 22:29:36.223  1087-1184  chromium                fr.r0ro.android.FreeTelec            I  [0427/222936.222495:INFO:variations_seed_loader.cc(66)] Failed to open file for reading.: No such file or directory (2)
+2024-04-27 22:29:36.224  1087-1184  chromium                fr.r0ro.android.FreeTelec            I  [0427/222936.224381:INFO:variations_seed_loader.cc(66)] Failed to open file for reading.: No such file or directory (2)
+2024-04-27 22:29:36.232  1087-1087  cr_LibraryLoader        fr.r0ro.android.FreeTelec            I  Successfully loaded native library
+2024-04-27 22:29:36.233  1087-1087  cr_CachingUmaRecorder   fr.r0ro.android.FreeTelec            I  Flushed 6 samples from 6 histograms, 0 samples were dropped.
+2024-04-27 22:29:36.242  1087-1087  cr_CombinedPProvider    fr.r0ro.android.FreeTelec            I  #registerProvider() provider:WV.f7@cd63a06 isPolicyCacheEnabled:false policyProvidersSize:0
+2024-04-27 22:29:36.243  1087-1087  cr_PolicyProvider       fr.r0ro.android.FreeTelec            I  #setManagerAndSource() 0
+2024-04-27 22:29:36.259  1920-2050  ActivityManager         system_server                        I  Start proc 1188:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i15 for  {fr.r0ro.android.FreeTelec/org.chromium.content.app.SandboxedProcessService0:0}
+2024-04-27 22:29:36.269  1087-1087  cr_CombinedPProvider    fr.r0ro.android.FreeTelec            I  #linkNativeInternal() 1
+2024-04-27 22:29:36.270  1087-1087  cr_AppResProvider       fr.r0ro.android.FreeTelec            I  #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
+2024-04-27 22:29:36.270  1087-1087  cr_PolicyProvider       fr.r0ro.android.FreeTelec            I  #notifySettingsAvailable() 0
+2024-04-27 22:29:36.270  1087-1087  cr_CombinedPProvider    fr.r0ro.android.FreeTelec            I  #onSettingsAvailable() 0
+2024-04-27 22:29:36.270  1087-1087  cr_CombinedPProvider    fr.r0ro.android.FreeTelec            I  #flushPolicies()
+2024-04-27 22:29:36.275  1920-2038  CompanionD...gerService system_server                        D  onPackageModified(packageName = fr.r0ro.android.FreeTelec)
+2024-04-27 22:29:36.277 13383-13383 MediaPlayerList         com.android.bluetooth                D  Name of package changed: fr.r0ro.android.FreeTelec
+2024-04-27 22:29:36.301  2769-2769  ImsResolver             com.android.phone                    D  maybeAddedImsService, packageName: fr.r0ro.android.FreeTelec
+2024-04-27 22:29:36.312  3871-3871  AiAiEcho                com.google.android.as                I  AppFetcherImpl onPackageChanged fr.r0ro.android.FreeTelec.
+2024-04-27 22:29:36.313  3871-3871  AiAiEcho                com.google.android.as                I  AppIndexer Package:[fr.r0ro.android.FreeTelec] UserProfile:[0] Enabled:[true].
+2024-04-27 22:29:36.313  3871-3871  AiAiEcho                com.google.android.as                I  AppFetcherImplV2 updateApps package:[fr.r0ro.android.FreeTelec], userId:[0], reason:[package is updated.].
+2024-04-27 22:29:36.501  1920-4436  ConnectivityService     system_server                        D  requestNetwork for uid/pid:10368/1087 activeRequest: null callbackRequest: 1813 [NetworkRequest [ REQUEST id=1814, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+2024-04-27 22:29:36.503  1920-2396  WifiNetworkFactory      system_server                        D  got request NetworkRequest [ REQUEST id=1814, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.503  1920-2396  UntrustedW...orkFactory system_server                        D  got request NetworkRequest [ REQUEST id=1814, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.503  1920-2396  OemPaidWif...orkFactory system_server                        D  got request NetworkRequest [ REQUEST id=1814, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.504  1920-2396  MultiInter...orkFactory system_server                        D  got request NetworkRequest [ REQUEST id=1814, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.528  1087-1224  cr_media                fr.r0ro.android.FreeTelec            W  BLUETOOTH_CONNECT permission is missing.
+2024-04-27 22:29:36.529  1087-1224  cr_media                fr.r0ro.android.FreeTelec            W  registerBluetoothIntentsIfNeeded: Requires BLUETOOTH permission
+2024-04-27 22:29:36.545  1920-3957  InputManager-JNI        system_server                        W  Input channel object 'ba14bd5 Splash Screen fr.r0ro.android.FreeTelec (client)' was disposed without first being removed with the input manager!
+2024-04-27 22:29:36.583  3851-3851  GoogleInpu...hodService com...gle.android.inputmethod.latin  I  GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=fr.r0ro.android.FreeTelec, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2131099783, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+2024-04-27 22:29:36.593 22078-22090 Finsky                  com.android.vending                  I  [140] jcy.dispatchTransaction(906): DGII: IDeveloperGroupIdInfoService#getDeveloperGroupIdInfo() for package fr.r0ro.android.FreeTelec
+2024-04-27 22:29:36.606 22078-22096 Finsky                  com.android.vending                  I  [146] naq.accept(276): DGII: Fetched Developer Group Id Info for fr.r0ro.android.FreeTelec
+2024-04-27 22:29:36.693  1087-1122  System                  fr.r0ro.android.FreeTelec            W  Ignoring header If-None-Match because its value was null.
+2024-04-27 22:29:36.770  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            I  need to wait for ads to be ready
+2024-04-27 22:29:36.864  1087-1087  Ads                     fr.r0ro.android.FreeTelec            I  JS: The jsLoaded GMSG has been sent (https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html:805)
+2024-04-27 22:29:36.942  1087-1087  ADS                     fr.r0ro.android.FreeTelec            I  initializationStatus
+2024-04-27 22:29:36.942  1087-1087  ADS                     fr.r0ro.android.FreeTelec            I  > com.google.android.gms.ads.MobileAds : READY / 
+2024-04-27 22:29:36.942  1087-1087  RGPD                    fr.r0ro.android.FreeTelec            W  need to ask rgpd
+2024-04-27 22:29:36.942  1087-1087  RGPD                    fr.r0ro.android.FreeTelec            W  asking RGPD
+2024-04-27 22:29:36.943  1087-1087  ADS                     fr.r0ro.android.FreeTelec            I  loadAd
+2024-04-27 22:29:36.943  1087-1339  UserMessagingPlatform   fr.r0ro.android.FreeTelec            I  Use new ConsentDebugSettings.Builder().addTestDeviceHashedId("DB15FE3785C1B9F724971E6CAF725986") to set this as a debug device.
+2024-04-27 22:29:36.948  1087-1087  DynamitePackage         fr.r0ro.android.FreeTelec            D  Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+2024-04-27 22:29:36.952  1087-1087  Ads                     fr.r0ro.android.FreeTelec            I  Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("DB15FE3785C1B9F724971E6CAF725986")) to get test ads on this device.
+2024-04-27 22:29:36.975  1087-1334  droid.FreeTele          fr.r0ro.android.FreeTelec            E  Attempt to load writable dex file: /data/user/0/fr.r0ro.android.FreeTelec/cache/1700159444520.jar
+2024-04-27 22:29:36.976  1087-1334  ziparchive              fr.r0ro.android.FreeTelec            W  Unable to open '/data/user/0/fr.r0ro.android.FreeTelec/cache/1700159444520.dm': No such file or directory
+2024-04-27 22:29:36.982  1087-1108  droid.FreeTele          fr.r0ro.android.FreeTelec            E  No package ID 79 found for ID 0x790b0007.
+2024-04-27 22:29:36.984  1087-1087  ConnectionStatusConfig  fr.r0ro.android.FreeTelec            W  Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.CACHE
+2024-04-27 22:29:36.991  1087-1087  DynamitePackage         fr.r0ro.android.FreeTelec            D  Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+2024-04-27 22:29:36.991  1920-3687  ConnectivityService     system_server                        D  requestNetwork for uid/pid:10368/1087 activeRequest: null callbackRequest: 1816 [NetworkRequest [ REQUEST id=1817, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+2024-04-27 22:29:36.992  1087-1087  Ads                     fr.r0ro.android.FreeTelec            I  Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("DB15FE3785C1B9F724971E6CAF725986")) to get test ads on this device.
+2024-04-27 22:29:36.994  1920-2396  WifiNetworkFactory      system_server                        D  got request NetworkRequest [ REQUEST id=1817, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.994  1920-2396  UntrustedW...orkFactory system_server                        D  got request NetworkRequest [ REQUEST id=1817, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.994  1920-2396  OemPaidWif...orkFactory system_server                        D  got request NetworkRequest [ REQUEST id=1817, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.994  1920-1942  ConnectivityService     system_server                        D  requestNetwork for uid/pid:10368/1087 activeRequest: null callbackRequest: 1818 [NetworkRequest [ REQUEST id=1819, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+2024-04-27 22:29:36.994  1920-2396  MultiInter...orkFactory system_server                        D  got request NetworkRequest [ REQUEST id=1817, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.996  1920-2396  WifiNetworkFactory      system_server                        D  got request NetworkRequest [ REQUEST id=1819, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.997  1920-2396  UntrustedW...orkFactory system_server                        D  got request NetworkRequest [ REQUEST id=1819, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.998  1920-2396  OemPaidWif...orkFactory system_server                        D  got request NetworkRequest [ REQUEST id=1819, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:36.998  1920-2396  MultiInter...orkFactory system_server                        D  got request NetworkRequest [ REQUEST id=1819, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ]
+2024-04-27 22:29:37.011  1920-2073  VerityUtils             system_server                        E  Failed to measure fs-verity, errno 1: /data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/base.apk
+2024-04-27 22:29:37.029  1087-1158  Ads                     fr.r0ro.android.FreeTelec            W  Not retrying to fetch app settings
+2024-04-27 22:29:37.031  1087-1167  Ads                     fr.r0ro.android.FreeTelec            W  Not retrying to fetch app settings
+2024-04-27 22:29:37.032  1087-1450  ConnectionStatusConfig  fr.r0ro.android.FreeTelec            W  Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.START
+2024-04-27 22:29:37.052  1087-1431  droid.FreeTele          fr.r0ro.android.FreeTelec            E  Attempt to load writable dex file: /data/user/0/fr.r0ro.android.FreeTelec/app_pccache/5/D44E18E0CA7C7775660EFD7013B6DD581EAAF771/pcam.jar
+2024-04-27 22:29:37.052  1087-1431  ziparchive              fr.r0ro.android.FreeTelec            W  Unable to open '/data/user/0/fr.r0ro.android.FreeTelec/app_pccache/5/D44E18E0CA7C7775660EFD7013B6DD581EAAF771/pcam.dm': No such file or directory
+2024-04-27 22:29:37.061  1087-1431  nativeloader            fr.r0ro.android.FreeTelec            D  Configuring clns-13 for other apk . target_sdk_version=32, uses_libraries=ALL, library_path=, permitted_path=/data:/mnt/expand
+2024-04-27 22:29:37.058  1087-1087  pool-26-thread-         fr.r0ro.android.FreeTelec            W  type=1400 audit(0.0:17341): avc: granted { execute } for path="/data/data/fr.r0ro.android.FreeTelec/app_pccache/5/D44E18E0CA7C7775660EFD7013B6DD581EAAF771/pcam.jar" dev="dm-8" ino=133936 scontext=u:r:untrusted_app:s0:c112,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c112,c257,c512,c768 tclass=file app=fr.r0ro.android.FreeTelec
+2024-04-27 22:29:37.618  1087-1087  RGPD                    fr.r0ro.android.FreeTelec            I  need to get consent
+2024-04-27 22:29:37.724  3851-3851  GoogleInpu...hodService com...gle.android.inputmethod.latin  I  GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=fr.r0ro.android.FreeTelec, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+2024-04-27 22:29:37.878  1087-1087  Ads                     fr.r0ro.android.FreeTelec            I  JS: The jsLoaded GMSG has been sent (https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html:805)
+2024-04-27 22:29:38.981  1087-1087  ExoPlayerImpl           fr.r0ro.android.FreeTelec            I  Init 5c959ca [AndroidXMedia3/1.2.1] [blueline, Pixel 3, Google, 31]
+2024-04-27 22:29:38.998  1087-1087  Ads                     fr.r0ro.android.FreeTelec            I  ExoPlayerAdapter initialized.
+2024-04-27 22:29:39.016  1087-1087  PlayCore                fr.r0ro.android.FreeTelec            I  UID: [10368]  PID: [1087] PrewarmService : prewarm(fr.r0ro.android.FreeTelec)
+2024-04-27 22:29:39.017  1087-1543  PlayCore                fr.r0ro.android.FreeTelec            I  UID: [10368]  PID: [1087] PrewarmService : Initiate binding to the service.
+2024-04-27 22:29:39.025  1087-1087  PlayCore                fr.r0ro.android.FreeTelec            I  UID: [10368]  PID: [1087] PrewarmService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.prewarmservice.PrewarmService})
+2024-04-27 22:29:39.025  1087-1543  PlayCore                fr.r0ro.android.FreeTelec            I  UID: [10368]  PID: [1087] PrewarmService : linkToDeath
+2024-04-27 22:29:39.026 22078-22090 Finsky                  com.android.vending                  I  [140] aafz.c(7): prewarm called with callingPackage: fr.r0ro.android.FreeTelec
+2024-04-27 22:29:39.181  1087-1536  DMCodecAdapterFactory   fr.r0ro.android.FreeTelec            I  Creating an asynchronous MediaCodec adapter for track type audio
+2024-04-27 22:29:39.200  1087-1571  CCodec                  fr.r0ro.android.FreeTelec            D  allocate(c2.android.aac.decoder)
+2024-04-27 22:29:39.211  1087-1571  Codec2Client            fr.r0ro.android.FreeTelec            I  Available Codec2 services: "default" "software"
+2024-04-27 22:29:39.229  1087-1571  CCodec                  fr.r0ro.android.FreeTelec            I  setting up 'default' as default (vendor) store
+2024-04-27 22:29:39.276  1087-1571  CCodec                  fr.r0ro.android.FreeTelec            I  Created component [c2.android.aac.decoder]
+2024-04-27 22:29:39.279  1087-1571  CCodecConfig            fr.r0ro.android.FreeTelec            D  read media type: audio/mp4a-latm
+2024-04-27 22:29:39.283  1087-1571  ReflectedParamUpdater   fr.r0ro.android.FreeTelec            D  extent() != 1 for single value type: algo.buffers.max-count.values
+2024-04-27 22:29:39.284  1087-1571  ReflectedParamUpdater   fr.r0ro.android.FreeTelec            D  extent() != 1 for single value type: output.subscribed-indices.values
+2024-04-27 22:29:39.284  1087-1571  ReflectedParamUpdater   fr.r0ro.android.FreeTelec            D  extent() != 1 for single value type: input.buffers.allocator-ids.values
+2024-04-27 22:29:39.284  1087-1571  ReflectedParamUpdater   fr.r0ro.android.FreeTelec            D  extent() != 1 for single value type: output.buffers.allocator-ids.values
+2024-04-27 22:29:39.284  1087-1571  ReflectedParamUpdater   fr.r0ro.android.FreeTelec            D  extent() != 1 for single value type: algo.buffers.allocator-ids.values
+2024-04-27 22:29:39.284  1087-1571  ReflectedParamUpdater   fr.r0ro.android.FreeTelec            D  extent() != 1 for single value type: output.buffers.pool-ids.values
+2024-04-27 22:29:39.284  1087-1571  ReflectedParamUpdater   fr.r0ro.android.FreeTelec            D  extent() != 1 for single value type: algo.buffers.pool-ids.values
+2024-04-27 22:29:39.290  1087-1571  CCodecConfig            fr.r0ro.android.FreeTelec            I  query failed after returning 19 values (BAD_INDEX)
+2024-04-27 22:29:39.290  1087-1571  CCodecConfig            fr.r0ro.android.FreeTelec            D  c2 config diff is Dict {
+                                                                                                      c2::u32 coded.aac-packaging.value = 0
+                                                                                                      c2::u32 coded.bitrate.value = 64000
+                                                                                                      c2::u32 coded.pl.level = 0
+                                                                                                      c2::u32 coded.pl.profile = 8192
+                                                                                                      c2::i32 coding.drc.album-mode.value = 0
+                                                                                                      c2::float coding.drc.attenuation-factor.value = 1
+                                                                                                      c2::float coding.drc.boost-factor.value = 1
+                                                                                                      c2::i32 coding.drc.compression-mode.value = 3
+                                                                                                      c2::i32 coding.drc.effect-type.value = 3
+                                                                                                      c2::float coding.drc.encoded-level.value = 0.25
+                                                                                                      c2::float coding.drc.reference-level.value = -16
+                                                                                                      c2::u32 input.buffers.max-size.value = 8192
+                                                                                                      c2::u32 input.delay.value = 0
+                                                                                                      string input.media-type.value = "audio/mp4a-latm"
+                                                                                                      c2::u32 output.delay.value = 2
+                                                                                                      c2::float output.drc.output-loudness.value = 0.25
+                                                                                                      string output.media-type.value = "audio/raw"
+                                                                                                      c2::u32 raw.channel-count.value = 1
+                                                                                                      c2::u32 raw.max-channel-count.value = 8
+                                                                                                      c2::u32 raw.sample-rate.value = 44100
+                                                                                                    }
+2024-04-27 22:29:39.294  1087-1571  MediaCodec              fr.r0ro.android.FreeTelec            I  MediaCodec will operate in async mode
+2024-04-27 22:29:39.294  1087-1571  CCodec                  fr.r0ro.android.FreeTelec            D  [c2.android.aac.decoder] buffers are bound to CCodec for this session
+2024-04-27 22:29:39.294  1087-1571  CCodecConfig            fr.r0ro.android.FreeTelec            D  no c2 equivalents for log-session-id
+2024-04-27 22:29:39.294  1087-1571  CCodecConfig            fr.r0ro.android.FreeTelec            D  no c2 equivalents for flags
+2024-04-27 22:29:39.295  1087-1571  CCodecConfig            fr.r0ro.android.FreeTelec            D  c2 config diff is   c2::u32 raw.channel-count.value = 2
+2024-04-27 22:29:39.295  1087-1571  Codec2Client            fr.r0ro.android.FreeTelec            W  query -- param skipped: index = 1107298332.
+2024-04-27 22:29:39.295  1087-1571  CCodec                  fr.r0ro.android.FreeTelec            D  setup formats input: AMessage(what = 0x00000000) = {
+                                                                                                      int32_t aac-drc-album-mode = 0
+                                                                                                      int32_t aac-drc-boost-level = 127
+                                                                                                      int32_t aac-drc-cut-level = 127
+                                                                                                      int32_t aac-drc-effect-type = 3
+                                                                                                      int32_t aac-encoded-target-level = -1
+                                                                                                      int32_t aac-max-output-channel_count = 8
+                                                                                                      int32_t aac-target-ref-level = 64
+                                                                                                      int32_t bitrate = 64000
+                                                                                                      int32_t channel-count = 2
+                                                                                                      int32_t level = 0
+                                                                                                      int32_t max-input-size = 8192
+                                                                                                      string mime = "audio/mp4a-latm"
+                                                                                                      int32_t profile = 2
+                                                                                                      int32_t sample-rate = 44100
+                                                                                                    }
+2024-04-27 22:29:39.295  1087-1571  CCodec                  fr.r0ro.android.FreeTelec            D  setup formats output: AMessage(what = 0x00000000) = {
+                                                                                                      int32_t aac-drc-album-mode = 0
+                                                                                                      int32_t aac-drc-boost-level = 127
+                                                                                                      int32_t aac-drc-cut-level = 127
+                                                                                                      int32_t aac-drc-effect-type = 3
+                                                                                                      int32_t aac-drc-output-loudness = -1
+                                                                                                      int32_t aac-encoded-target-level = -1
+                                                                                                      int32_t aac-max-output-channel_count = 8
+                                                                                                      int32_t aac-target-ref-level = 64
+                                                                                                      int32_t channel-count = 2
+                                                                                                      string mime = "audio/raw"
+                                                                                                      int32_t sample-rate = 44100
+                                                                                                    }
+2024-04-27 22:29:39.295  1087-1571  CCodecConfig            fr.r0ro.android.FreeTelec            I  query failed after returning 19 values (BAD_INDEX)
+2024-04-27 22:29:39.296  1087-1536  MediaCodec              fr.r0ro.android.FreeTelec            D  keep callback message for reclaim
+2024-04-27 22:29:39.297  1087-1571  Codec2Client            fr.r0ro.android.FreeTelec            W  query -- param skipped: index = 1342179345.
+2024-04-27 22:29:39.297  1087-1571  Codec2Client            fr.r0ro.android.FreeTelec            W  query -- param skipped: index = 2415921170.
+2024-04-27 22:29:39.297  1087-1571  Codec2Client            fr.r0ro.android.FreeTelec            W  query -- param skipped: index = 1610614798.
+2024-04-27 22:29:39.298  1087-1571  C2Store                 fr.r0ro.android.FreeTelec            D  Using ION
+2024-04-27 22:29:39.303  1087-1571  CCodecBufferChannel     fr.r0ro.android.FreeTelec            D  [c2.android.aac.decoder#513] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+2024-04-27 22:29:39.310  1087-1571  CCodecBufferChannel     fr.r0ro.android.FreeTelec            I  [c2.android.aac.decoder#513] Created output block pool with allocatorID 16 => poolID 49 - OK
+2024-04-27 22:29:39.310  1087-1571  CCodecBufferChannel     fr.r0ro.android.FreeTelec            D  [c2.android.aac.decoder#513] Configured output block pool ids 49 => OK
+2024-04-27 22:29:39.315  1087-1571  ion                     fr.r0ro.android.FreeTelec            E  ioctl c0044901 failed with code -1: Invalid argument
+2024-04-27 22:29:39.325  1087-1571  CCodecConfig            fr.r0ro.android.FreeTelec            D  c2 config diff is   c2::u32 raw.channel-mask.value = 12
+2024-04-27 22:29:39.328  1087-1536  DMCodecAdapterFactory   fr.r0ro.android.FreeTelec            I  Creating an asynchronous MediaCodec adapter for track type video
+2024-04-27 22:29:39.331  1087-1595  CCodec                  fr.r0ro.android.FreeTelec            D  allocate(c2.qti.vp9.decoder)
+2024-04-27 22:29:39.334  1087-1595  CCodec                  fr.r0ro.android.FreeTelec            I  setting up 'default' as default (vendor) store
+2024-04-27 22:29:39.357  1087-1595  CCodec                  fr.r0ro.android.FreeTelec            I  Created component [c2.qti.vp9.decoder]
+2024-04-27 22:29:39.357  1087-1595  CCodecConfig            fr.r0ro.android.FreeTelec            D  read media type: video/x-vnd.on2.vp9
+2024-04-27 22:29:39.358  1087-1595  ReflectedParamUpdater   fr.r0ro.android.FreeTelec            D  extent() != 1 for single value type: output.buffers.pool-ids.values
+2024-04-27 22:29:39.362  1087-1595  CCodecConfig            fr.r0ro.android.FreeTelec            D  ignoring local param raw.size (0xd2001800) as it is already supported
+2024-04-27 22:29:39.362  1087-1595  CCodecConfig            fr.r0ro.android.FreeTelec            D  ignoring local param default.color (0x5200180b) as it is already supported
+2024-04-27 22:29:39.362  1087-1595  CCodecConfig            fr.r0ro.android.FreeTelec            D  ignoring local param raw.hdr-static-info (0xd200180a) as it is already supported
+2024-04-27 22:29:39.363  1087-1595  CCodecConfig            fr.r0ro.android.FreeTelec            I  query failed after returning 17 values (BAD_INDEX)
+2024-04-27 22:29:39.363  1087-1595  CCodecConfig            fr.r0ro.android.FreeTelec            D  c2 config diff is Dict {
+                                                                                                      c2::i32 algo.priority.value = -1
+                                                                                                      c2::float algo.rate.value = 4.2039e-44
+                                                                                                      c2::u32 algo.secure-mode.value = 0
+                                                                                                      c2::float coded.frame-rate.value = 30
+                                                                                                      c2::u32 coded.pl.level = 28672
+                                                                                                      c2::u32 coded.pl.profile = 28672
+                                                                                                      c2::u32 coded.vui.color.matrix = 0
+                                                                                                      c2::u32 coded.vui.color.primaries = 0
+                                                                                                      c2::u32 coded.vui.color.range = 0
+                                                                                                      c2::u32 coded.vui.color.transfer = 0
+                                                                                                      c2::u32 default.color.matrix = 0
+                                                                                                      c2::u32 default.color.primaries = 3
+                                                                                                      c2::u32 default.color.range = 2
+                                                                                                      c2::u32 default.color.transfer = 0
+                                                                                                      c2::u32 input.buffers.max-size.value = 13271040
+                                                                                                      c2::u32 input.delay.value = 4
+                                                                                                      string input.media-type.value = "video/x-vnd.on2.vp9"
+                                                                                                      c2::u32 output.delay.value = 18
+                                                                                                      string output.media-type.value = "video/raw"
+                                                                                                      c2::u32 raw.color.matrix = 0
+                                                                                                      c2::u32 raw.color.primaries = 0
+                                                                                                      c2::u32 raw.color.range = 0
+                                                                                                      c2::u32 raw.color.transfer = 0
+                                                                                                      c2::float raw.hdr-static-info.mastering.blue.x = 1.4013e-45
+                                                                                                      c2::float raw.hdr-static-info.mastering.blue.y = 1.4013e-45
+                                                                                                      c2::floa
+2024-04-27 22:29:39.363  1087-1595  ColorUtils              fr.r0ro.android.FreeTelec            W  expected specified color aspects (0:0:0:0)
+2024-04-27 22:29:39.374  1087-1594  MediaCodec              fr.r0ro.android.FreeTelec            I  MediaCodec will operate in async mode
+2024-04-27 22:29:39.377  1087-1594  SurfaceUtils            fr.r0ro.android.FreeTelec            D  connecting to surface 0x7e28140000, reason connectToSurface
+2024-04-27 22:29:39.377  1087-1594  MediaCodec              fr.r0ro.android.FreeTelec            I  [c2.qti.vp9.decoder] setting surface generation to 1113089
+2024-04-27 22:29:39.377  1087-1594  SurfaceUtils            fr.r0ro.android.FreeTelec            D  disconnecting from surface 0x7e28140000, reason connectToSurface(reconnect)
+2024-04-27 22:29:39.377  1087-1594  SurfaceUtils            fr.r0ro.android.FreeTelec            D  connecting to surface 0x7e28140000, reason connectToSurface(reconnect)
+2024-04-27 22:29:39.378  1087-1595  CCodec                  fr.r0ro.android.FreeTelec            D  [c2.qti.vp9.decoder] buffers are bound to CCodec for this session
+2024-04-27 22:29:39.378  1087-1595  CCodecConfig            fr.r0ro.android.FreeTelec            D  no c2 equivalents for log-session-id
+2024-04-27 22:29:39.379  1087-1595  CCodecConfig            fr.r0ro.android.FreeTelec            D  no c2 equivalents for color-standard
+2024-04-27 22:29:39.379  1087-1595  CCodecConfig            fr.r0ro.android.FreeTelec            D  no c2 equivalents for native-window
+2024-04-27 22:29:39.379  1087-1595  CCodecConfig            fr.r0ro.android.FreeTelec            D  no c2 equivalents for flags
+2024-04-27 22:29:39.381  1087-1595  CCodecConfig            fr.r0ro.android.FreeTelec            D  c2 config diff is   c2::i32 algo.priority.value = 0
+                                                                                                      c2::u32 default.color.matrix = 1
+                                                                                                      c2::u32 default.color.primaries = 1
+                                                                                                      c2::u32 default.color.transfer = 3
+                                                                                                      c2::u32 input.buffers.max-size.value = 1474560
+                                                                                                      c2::u32 raw.max-size.height = 1280
+                                                                                                      c2::u32 raw.max-size.width = 720
+                                                                                                      c2::u32 raw.pixel-format.value = 34
+                                                                                                      c2::u32 raw.size.height = 1280
+                                                                                                      c2::u32 raw.size.width = 720
+2024-04-27 22:29:39.382  1087-1595  Codec2Client            fr.r0ro.android.FreeTelec            W  query -- param skipped: index = 1107298332.
+2024-04-27 22:29:39.382  1087-1595  CCodec                  fr.r0ro.android.FreeTelec            D  client requested max input size 345600, which is smaller than what component recommended (1474560); overriding with component recommendation.
+2024-04-27 22:29:39.382  1087-1595  CCodec                  fr.r0ro.android.FreeTelec            W  This behavior is subject to change. It is recommended that app developers double check whether the requested max input size is in reasonable range.
+2024-04-27 22:29:39.382  1087-1595  CCodec                  fr.r0ro.android.FreeTelec            D  setup formats input: AMessage(what = 0x00000000) = {
+                                                                                                      int32_t feature-secure-playback = 0
+                                                                                                      int32_t frame-rate = 30
+                                                                                                      int32_t height = 1280
+                                                                                                      int32_t level = 1
+                                                                                                      int32_t max-input-size = 1474560
+                                                                                                      string mime = "video/x-vnd.on2.vp9"
+                                                                                                      int32_t priority = 0
+                                                                                                      int32_t profile = 1
+                                                                                                      int32_t width = 720
+                                                                                                      Rect crop(0, 0, 719, 1279)
+                                                                                                    }
+2024-04-27 22:29:39.382  1087-1595  CCodec                  fr.r0ro.android.FreeTelec            D  setup formats output: AMessage(what = 0x00000000) = {
+                                                                                                      int32_t android._color-format = 2130708361
+                                                                                                      int32_t android._video-scaling = 1
+                                                                                                      int32_t android._dataspace = 260
+                                                                                                      int32_t color-standard = 1
+                                                                                                      int32_t color-range = 2
+                                                                                                      int32_t color-transfer = 3
+                                                                                                      int32_t sar-height = 1
+                                                                                                      int32_t rotation-degrees = 0
+                                                                                                      Buffer hdr-static-info = {
+                                                                                                        00000000:  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  ................
+                                                                                                        00000010:  00 00 00 00 00 00 00 00  00                       .........
+                                                                                                      }
+                                                                                                      int32_t sar-width = 1
+                                                                                                      Rect crop(0, 0, 719, 1279)
+                                                                                                      int32_t width = 720
+                                                                                                      int32_t feature-secure-playback = 0
+                                                                                                      int32_t frame-rate = 30
+                                                                                                      int32_t height = 1280
+                                                                                                      int32_t max-height = 1280
+                                                                                                      int32_t max-width = 720
+                                                                                                      string mime = "video/raw"
+                                                                                                      int32_t priority = 0
+                                                                                                      int32_t color-format = 2130708361
+                                                                                                    }
+2024-04-27 22:29:39.383  1087-1595  CCodecConfig            fr.r0ro.android.FreeTelec            I  query failed after returning 17 values (BAD_INDEX)
+2024-04-27 22:29:39.384  1087-1536  MediaCodec              fr.r0ro.android.FreeTelec            D  keep callback message for reclaim
+2024-04-27 22:29:39.400  1087-1595  Codec2Client            fr.r0ro.android.FreeTelec            W  query -- param skipped: index = 1342179345.
+2024-04-27 22:29:39.400  1087-1595  Codec2Client            fr.r0ro.android.FreeTelec            W  query -- param skipped: index = 2415921170.
+2024-04-27 22:29:39.400  1087-1595  Codec2Client            fr.r0ro.android.FreeTelec            W  query -- param skipped: index = 1610614798.
+2024-04-27 22:29:39.400  1087-1595  CCodecBufferChannel     fr.r0ro.android.FreeTelec            D  [c2.qti.vp9.decoder#656] Query input allocators returned 0 params => BAD_INDEX (6)
+2024-04-27 22:29:39.401  1087-1595  CCodecBufferChannel     fr.r0ro.android.FreeTelec            D  [c2.qti.vp9.decoder#656] Created input block pool with allocatorID 16 => poolID 18 - OK (0)
+2024-04-27 22:29:39.401  1087-1595  CCodecBufferChannel     fr.r0ro.android.FreeTelec            D  [c2.qti.vp9.decoder#656] Query output allocators returned 0 params => BAD_INDEX (6)
+2024-04-27 22:29:39.401  1087-1595  CCodecBufferChannel     fr.r0ro.android.FreeTelec            D  [c2.qti.vp9.decoder#656] Query output surface allocator returned 0 params => BAD_INDEX (6)
+2024-04-27 22:29:39.404  1087-1595  CCodecBufferChannel     fr.r0ro.android.FreeTelec            I  [c2.qti.vp9.decoder#656] Created output block pool with allocatorID 18 => poolID 22 - OK
+2024-04-27 22:29:39.404  1087-1595  CCodecBufferChannel     fr.r0ro.android.FreeTelec            D  [c2.qti.vp9.decoder#656] Configured output block pool ids 22 => OK
+2024-04-27 22:29:39.404  1087-1595  Codec2-Out...ufferQueue fr.r0ro.android.FreeTelec            D  remote graphic buffer migration 0/0
+2024-04-27 22:29:39.404  1087-1595  Codec2Client            fr.r0ro.android.FreeTelec            D  setOutputSurface -- failed to set consumer usage (6/BAD_INDEX)
+2024-04-27 22:29:39.404  1087-1595  Codec2Client            fr.r0ro.android.FreeTelec            D  setOutputSurface -- generation=1113089 consumer usage=0x900
+2024-04-27 22:29:39.409  1087-1595  Codec2Client            fr.r0ro.android.FreeTelec            D  Surface configure completed
+2024-04-27 22:29:39.465  1087-1595  CCodecConfig            fr.r0ro.android.FreeTelec            D  c2 config diff is   c2::u32 raw.color.matrix = 1
+                                                                                                      c2::u32 raw.color.primaries = 1
+                                                                                                      c2::u32 raw.color.range = 2
+                                                                                                      c2::u32 raw.color.transfer = 3
+                                                                                                      c2::u32 raw.crop.height = 1280
+                                                                                                      c2::u32 raw.crop.left = 0
+                                                                                                      c2::u32 raw.crop.top = 0
+                                                                                                      c2::u32 raw.crop.width = 720
+2024-04-27 22:29:39.930  3851-3851  GoogleInpu...hodService com...gle.android.inputmethod.latin  I  GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=fr.r0ro.android.FreeTelec, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=12000000, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+2024-04-27 22:29:39.953  1920-4448  InputManager-JNI        system_server                        W  Input channel object '636db39 fr.r0ro.android.FreeTelec/fr.r0ro.android.FreeTelec.FreeTelecActivity (client)' was disposed without first being removed with the input manager!
+2024-04-27 22:29:39.958  1087-1087  RGPD                    fr.r0ro.android.FreeTelec            I  form dismissed
+2024-04-27 22:29:39.958  1087-1087  RGPD                    fr.r0ro.android.FreeTelec            I  rgpdDone
+2024-04-27 22:29:39.986  1087-1610  System.err              fr.r0ro.android.FreeTelec            W  SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2024-04-27 22:29:39.986  1087-1610  System.err              fr.r0ro.android.FreeTelec            W  SLF4J: Defaulting to no-operation (NOP) logger implementation
+2024-04-27 22:29:39.986  1087-1610  System.err              fr.r0ro.android.FreeTelec            W  SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2024-04-27 22:29:40.026  3851-3851  GoogleInpu...hodService com...gle.android.inputmethod.latin  I  GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=fr.r0ro.android.FreeTelec, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2131099783, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+2024-04-27 22:29:40.296  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            I  onFreeboxDetected: Freebox[atv] Freebox Player Mini v2 / 192.168.1.102 / 6466
+2024-04-27 22:29:40.327  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            I  onFreeboxDetected: Freebox[atv] Freebox Player Mini v2 / 192.168.1.102 / 6466
+2024-04-27 22:29:40.328  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            I  onFreeboxDetected: Freebox[atv] Freebox Player Mini v2 / 192.168.1.102 / 6466
+2024-04-27 22:29:40.353  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            I  onFreeboxDetected: Freebox[atv] Freebox Player Mini v2 / 192.168.1.102 / 6466
+2024-04-27 22:29:40.354  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            I  onFreeboxDetected: Freebox[atv] Freebox Player Mini v2 / 192.168.1.102 / 6466
+2024-04-27 22:29:40.354  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            I  onFreeboxDetected: Freebox[atv] Freebox Player Mini v2 / 192.168.1.102 / 6466
+2024-04-27 22:29:40.355  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            I  onFreeboxDetected: Freebox[atv] Freebox Player Mini v2 / 192.168.1.102 / 6466
+2024-04-27 22:29:40.355  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            I  onFreeboxDetected: Freebox[atv] Freebox Player Mini v2 / 192.168.1.102 / 6466
+2024-04-27 22:29:40.414  1087-1594  MediaCodec              fr.r0ro.android.FreeTelec            W  mapFormat: no mediaType information
+2024-04-27 22:29:43.028  1087-1087  AtvDiscover             fr.r0ro.android.FreeTelec            I  no android tv device found
+2024-04-27 22:29:44.982  1087-1087  FreeboxScanner          fr.r0ro.android.FreeTelec            I  scan timeout
+2024-04-27 22:29:44.983  1087-1087  FreeboxScanner          fr.r0ro.android.FreeTelec            I  stop scan
+2024-04-27 22:29:44.983  1087-1087  FreeboxScanner          fr.r0ro.android.FreeTelec            I  remove service listener
+2024-04-27 22:29:44.983  1087-1610  FreeboxScanner          fr.r0ro.android.FreeTelec            I  close
+2024-04-27 22:29:45.007  1087-1624  Telec                   fr.r0ro.android.FreeTelec            W  Failed scanning hd2.freebox.fr: java.net.SocketTimeoutException: failed to connect to hd2.freebox.fr/212.27.40.253 (port 80) from /192.168.1.115 (port 47866) after 5000ms
+2024-04-27 22:29:45.007  1087-1622  Telec                   fr.r0ro.android.FreeTelec            W  Failed scanning hd1.freebox.fr: java.net.SocketTimeoutException: failed to connect to hd1.freebox.fr/212.27.40.254 (port 80) from /192.168.1.115 (port 38536) after 5000ms
+2024-04-27 22:29:46.987  1087-1610  FreeboxScanner          fr.r0ro.android.FreeTelec            I  scan stopped: fr.r0ro.android.FreeTelec.e$a@2587a5a
+2024-04-27 22:29:46.987  1087-1087  FreeTelecSingleton      fr.r0ro.android.FreeTelec            I  onScanDone: [Freebox[atv] Freebox Player Mini v2 / 192.168.1.102 / 6466]
+2024-04-27 22:29:46.991  1920-3687  InputManager-JNI        system_server                        W  Input channel object '76ec38d fr.r0ro.android.FreeTelec/fr.r0ro.android.FreeTelec.FreeTelecActivity (client)' was disposed without first being removed with the input manager!
+2024-04-27 22:29:47.000  1087-1087  TelecAtv2               fr.r0ro.android.FreeTelec            I  connect to 192.168.1.102:6466
+2024-04-27 22:29:47.001  1087-1679  ClientCertificate       fr.r0ro.android.FreeTelec            I  create SSL Context
+2024-04-27 22:29:47.001  1087-1679  ClientTrustManager      fr.r0ro.android.FreeTelec            I  trustManager: android.security.net.config.RootTrustManager@4b46968
+2024-04-27 22:29:47.001  1087-1087  Compatibil...geReporter fr.r0ro.android.FreeTelec            D  Compat change id reported: 147798919; UID 10368; state: ENABLED
+2024-04-27 22:29:47.016  2478-2478  ziparchive              com.android.systemui                 W  Unable to open '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/base.apk': No such file or directory
+2024-04-27 22:29:47.016  2478-2478  ndroid.systemu          com.android.systemui                 E  Failed to open APK '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/base.apk': I/O error
+2024-04-27 22:29:47.016  2478-2478  ResourcesManager        com.android.systemui                 W  failed to preload asset path '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/base.apk'
+                                                                                                    java.io.IOException: Failed to load asset path /data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/base.apk
+                                                                                                    	at android.content.res.ApkAssets.nativeLoad(Native Method)
+                                                                                                    	at android.content.res.ApkAssets.<init>(ApkAssets.java:295)
+                                                                                                    	at android.content.res.ApkAssets.loadFromPath(ApkAssets.java:144)
+                                                                                                    	at android.app.ResourcesManager.loadApkAssets(ResourcesManager.java:454)
+                                                                                                    	at android.app.ResourcesManager.access$000(ResourcesManager.java:72)
+                                                                                                    	at android.app.ResourcesManager$ApkAssetsSupplier.load(ResourcesManager.java:168)
+                                                                                                    	at android.app.ResourcesManager.createApkAssetsSupplierNotLocked(ResourcesManager.java:980)
+                                                                                                    	at android.app.ResourcesManager.getResources(ResourcesManager.java:1101)
+                                                                                                    	at android.app.ActivityThread.getTopLevelResources(ActivityThread.java:2376)
+                                                                                                    	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1751)
+                                                                                                    	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1737)
+                                                                                                    	at android.app.ApplicationPackageManager.getDrawable(ApplicationPackageManager.java:1506)
+                                                                                                    	at android.app.ApplicationPackageManager.loadUnbadgedItemIcon(ApplicationPackageManager.java:3029)
+                                                                                                    	at android.content.pm.PackageItemInfo.loadUnbadgedIcon(PackageItemInfo.java:290)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.getBadgedIcon(SystemUIToast.java:284)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.inflateToastView(SystemUIToast.java:198)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.<init>(SystemUIToast.java:90)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.<init>(SystemUIToast.java:77)
+                                                                                                    	at com.android.systemui.toast.ToastFactory.createToast(ToastFactory.java:78)
+                                                                                                    	at com.android.systemui.toast.ToastUI.lambda$showToast$0(ToastUI.java:113)
+                                                                                                    	at com.android.systemui.toast.ToastUI.$r8$lambda$w_gPCh3F8Xxn1jN4lkQZoUci71c(Unknown Source:0)
+                                                                                                    	at com.android.systemui.toast.ToastUI$$ExternalSyntheticLambda0.run(Unknown Source:16)
+                                                                                                    	at com.android.systemui.toast.ToastUI.showToast(ToastUI.java:140)
+                                                                                                    	at com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:1431)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:201)
+                                                                                                    	at android.os.Looper.loop(Looper.java:288)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:7842)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+2024-04-27 22:29:47.017  2478-2478  ziparchive              com.android.systemui                 W  Unable to open '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/split_config.arm64_v8a.apk': No such file or directory
+2024-04-27 22:29:47.017  2478-2478  ndroid.systemu          com.android.systemui                 E  Failed to open APK '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/split_config.arm64_v8a.apk': I/O error
+2024-04-27 22:29:47.017  2478-2478  ResourcesManager        com.android.systemui                 W  failed to preload asset path '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/split_config.arm64_v8a.apk'
+                                                                                                    java.io.IOException: Failed to load asset path /data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/split_config.arm64_v8a.apk
+                                                                                                    	at android.content.res.ApkAssets.nativeLoad(Native Method)
+                                                                                                    	at android.content.res.ApkAssets.<init>(ApkAssets.java:295)
+                                                                                                    	at android.content.res.ApkAssets.loadFromPath(ApkAssets.java:144)
+                                                                                                    	at android.app.ResourcesManager.loadApkAssets(ResourcesManager.java:454)
+                                                                                                    	at android.app.ResourcesManager.access$000(ResourcesManager.java:72)
+                                                                                                    	at android.app.ResourcesManager$ApkAssetsSupplier.load(ResourcesManager.java:168)
+                                                                                                    	at android.app.ResourcesManager.createApkAssetsSupplierNotLocked(ResourcesManager.java:980)
+                                                                                                    	at android.app.ResourcesManager.getResources(ResourcesManager.java:1101)
+                                                                                                    	at android.app.ActivityThread.getTopLevelResources(ActivityThread.java:2376)
+                                                                                                    	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1751)
+                                                                                                    	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1737)
+                                                                                                    	at android.app.ApplicationPackageManager.getDrawable(ApplicationPackageManager.java:1506)
+                                                                                                    	at android.app.ApplicationPackageManager.loadUnbadgedItemIcon(ApplicationPackageManager.java:3029)
+                                                                                                    	at android.content.pm.PackageItemInfo.loadUnbadgedIcon(PackageItemInfo.java:290)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.getBadgedIcon(SystemUIToast.java:284)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.inflateToastView(SystemUIToast.java:198)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.<init>(SystemUIToast.java:90)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.<init>(SystemUIToast.java:77)
+                                                                                                    	at com.android.systemui.toast.ToastFactory.createToast(ToastFactory.java:78)
+                                                                                                    	at com.android.systemui.toast.ToastUI.lambda$showToast$0(ToastUI.java:113)
+                                                                                                    	at com.android.systemui.toast.ToastUI.$r8$lambda$w_gPCh3F8Xxn1jN4lkQZoUci71c(Unknown Source:0)
+                                                                                                    	at com.android.systemui.toast.ToastUI$$ExternalSyntheticLambda0.run(Unknown Source:16)
+                                                                                                    	at com.android.systemui.toast.ToastUI.showToast(ToastUI.java:140)
+                                                                                                    	at com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:1431)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:201)
+                                                                                                    	at android.os.Looper.loop(Looper.java:288)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:7842)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+2024-04-27 22:29:47.017  2478-2478  ziparchive              com.android.systemui                 W  Unable to open '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/split_config.fr.apk': No such file or directory
+2024-04-27 22:29:47.017  2478-2478  ndroid.systemu          com.android.systemui                 E  Failed to open APK '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/split_config.fr.apk': I/O error
+2024-04-27 22:29:47.017  2478-2478  ResourcesManager        com.android.systemui                 W  failed to preload asset path '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/split_config.fr.apk'
+                                                                                                    java.io.IOException: Failed to load asset path /data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/split_config.fr.apk
+                                                                                                    	at android.content.res.ApkAssets.nativeLoad(Native Method)
+                                                                                                    	at android.content.res.ApkAssets.<init>(ApkAssets.java:295)
+                                                                                                    	at android.content.res.ApkAssets.loadFromPath(ApkAssets.java:144)
+                                                                                                    	at android.app.ResourcesManager.loadApkAssets(ResourcesManager.java:454)
+                                                                                                    	at android.app.ResourcesManager.access$000(ResourcesManager.java:72)
+                                                                                                    	at android.app.ResourcesManager$ApkAssetsSupplier.load(ResourcesManager.java:168)
+                                                                                                    	at android.app.ResourcesManager.createApkAssetsSupplierNotLocked(ResourcesManager.java:980)
+                                                                                                    	at android.app.ResourcesManager.getResources(ResourcesManager.java:1101)
+                                                                                                    	at android.app.ActivityThread.getTopLevelResources(ActivityThread.java:2376)
+                                                                                                    	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1751)
+                                                                                                    	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1737)
+                                                                                                    	at android.app.ApplicationPackageManager.getDrawable(ApplicationPackageManager.java:1506)
+                                                                                                    	at android.app.ApplicationPackageManager.loadUnbadgedItemIcon(ApplicationPackageManager.java:3029)
+                                                                                                    	at android.content.pm.PackageItemInfo.loadUnbadgedIcon(PackageItemInfo.java:290)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.getBadgedIcon(SystemUIToast.java:284)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.inflateToastView(SystemUIToast.java:198)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.<init>(SystemUIToast.java:90)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.<init>(SystemUIToast.java:77)
+                                                                                                    	at com.android.systemui.toast.ToastFactory.createToast(ToastFactory.java:78)
+                                                                                                    	at com.android.systemui.toast.ToastUI.lambda$showToast$0(ToastUI.java:113)
+                                                                                                    	at com.android.systemui.toast.ToastUI.$r8$lambda$w_gPCh3F8Xxn1jN4lkQZoUci71c(Unknown Source:0)
+                                                                                                    	at com.android.systemui.toast.ToastUI$$ExternalSyntheticLambda0.run(Unknown Source:16)
+                                                                                                    	at com.android.systemui.toast.ToastUI.showToast(ToastUI.java:140)
+                                                                                                    	at com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:1431)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:201)
+                                                                                                    	at android.os.Looper.loop(Looper.java:288)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:7842)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+2024-04-27 22:29:47.017  2478-2478  ziparchive              com.android.systemui                 W  Unable to open '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/split_config.xxhdpi.apk': No such file or directory
+2024-04-27 22:29:47.017  2478-2478  ndroid.systemu          com.android.systemui                 E  Failed to open APK '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/split_config.xxhdpi.apk': I/O error
+2024-04-27 22:29:47.017  2478-2478  ResourcesManager        com.android.systemui                 W  failed to preload asset path '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/split_config.xxhdpi.apk'
+                                                                                                    java.io.IOException: Failed to load asset path /data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/split_config.xxhdpi.apk
+                                                                                                    	at android.content.res.ApkAssets.nativeLoad(Native Method)
+                                                                                                    	at android.content.res.ApkAssets.<init>(ApkAssets.java:295)
+                                                                                                    	at android.content.res.ApkAssets.loadFromPath(ApkAssets.java:144)
+                                                                                                    	at android.app.ResourcesManager.loadApkAssets(ResourcesManager.java:454)
+                                                                                                    	at android.app.ResourcesManager.access$000(ResourcesManager.java:72)
+                                                                                                    	at android.app.ResourcesManager$ApkAssetsSupplier.load(ResourcesManager.java:168)
+                                                                                                    	at android.app.ResourcesManager.createApkAssetsSupplierNotLocked(ResourcesManager.java:980)
+                                                                                                    	at android.app.ResourcesManager.getResources(ResourcesManager.java:1101)
+                                                                                                    	at android.app.ActivityThread.getTopLevelResources(ActivityThread.java:2376)
+                                                                                                    	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1751)
+                                                                                                    	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1737)
+                                                                                                    	at android.app.ApplicationPackageManager.getDrawable(ApplicationPackageManager.java:1506)
+                                                                                                    	at android.app.ApplicationPackageManager.loadUnbadgedItemIcon(ApplicationPackageManager.java:3029)
+                                                                                                    	at android.content.pm.PackageItemInfo.loadUnbadgedIcon(PackageItemInfo.java:290)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.getBadgedIcon(SystemUIToast.java:284)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.inflateToastView(SystemUIToast.java:198)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.<init>(SystemUIToast.java:90)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.<init>(SystemUIToast.java:77)
+                                                                                                    	at com.android.systemui.toast.ToastFactory.createToast(ToastFactory.java:78)
+                                                                                                    	at com.android.systemui.toast.ToastUI.lambda$showToast$0(ToastUI.java:113)
+                                                                                                    	at com.android.systemui.toast.ToastUI.$r8$lambda$w_gPCh3F8Xxn1jN4lkQZoUci71c(Unknown Source:0)
+                                                                                                    	at com.android.systemui.toast.ToastUI$$ExternalSyntheticLambda0.run(Unknown Source:16)
+                                                                                                    	at com.android.systemui.toast.ToastUI.showToast(ToastUI.java:140)
+                                                                                                    	at com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:1431)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:201)
+                                                                                                    	at android.os.Looper.loop(Looper.java:288)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:7842)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+2024-04-27 22:29:47.017  2478-2478  ziparchive              com.android.systemui                 W  Unable to open '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/base.apk': No such file or directory
+2024-04-27 22:29:47.017  2478-2478  ndroid.systemu          com.android.systemui                 E  Failed to open APK '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/base.apk': I/O error
+2024-04-27 22:29:47.017  2478-2478  ResourcesManager        com.android.systemui                 E  failed to add asset path '/data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/base.apk'
+                                                                                                    java.io.IOException: Failed to load asset path /data/app/~~ObFcM5VhAxiAby29Hwh98Q==/fr.r0ro.android.FreeTelec-omMLb3WULv2q07mO6p3A_Q==/base.apk
+                                                                                                    	at android.content.res.ApkAssets.nativeLoad(Native Method)
+                                                                                                    	at android.content.res.ApkAssets.<init>(ApkAssets.java:295)
+                                                                                                    	at android.content.res.ApkAssets.loadFromPath(ApkAssets.java:144)
+                                                                                                    	at android.app.ResourcesManager.loadApkAssets(ResourcesManager.java:454)
+                                                                                                    	at android.app.ResourcesManager.access$000(ResourcesManager.java:72)
+                                                                                                    	at android.app.ResourcesManager$ApkAssetsSupplier.load(ResourcesManager.java:168)
+                                                                                                    	at android.app.ResourcesManager.createAssetManager(ResourcesManager.java:530)
+                                                                                                    	at android.app.ResourcesManager.createResourcesImpl(ResourcesManager.java:612)
+                                                                                                    	at android.app.ResourcesManager.findOrCreateResourcesImplForKeyLocked(ResourcesManager.java:664)
+                                                                                                    	at android.app.ResourcesManager.createResources(ResourcesManager.java:1011)
+                                                                                                    	at android.app.ResourcesManager.getResources(ResourcesManager.java:1114)
+                                                                                                    	at android.app.ActivityThread.getTopLevelResources(ActivityThread.java:2376)
+                                                                                                    	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1751)
+                                                                                                    	at android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1737)
+                                                                                                    	at android.app.ApplicationPackageManager.getDrawable(ApplicationPackageManager.java:1506)
+                                                                                                    	at android.app.ApplicationPackageManager.loadUnbadgedItemIcon(ApplicationPackageManager.java:3029)
+                                                                                                    	at android.content.pm.PackageItemInfo.loadUnbadgedIcon(PackageItemInfo.java:290)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.getBadgedIcon(SystemUIToast.java:284)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.inflateToastView(SystemUIToast.java:198)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.<init>(SystemUIToast.java:90)
+                                                                                                    	at com.android.systemui.toast.SystemUIToast.<init>(SystemUIToast.java:77)
+                                                                                                    	at com.android.systemui.toast.ToastFactory.createToast(ToastFactory.java:78)
+                                                                                                    	at com.android.systemui.toast.ToastUI.lambda$showToast$0(ToastUI.java:113)
+                                                                                                    	at com.android.systemui.toast.ToastUI.$r8$lambda$w_gPCh3F8Xxn1jN4lkQZoUci71c(Unknown Source:0)
+                                                                                                    	at com.android.systemui.toast.ToastUI$$ExternalSyntheticLambda0.run(Unknown Source:16)
+                                                                                                    	at com.android.systemui.toast.ToastUI.showToast(ToastUI.java:140)
+                                                                                                    	at com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:1431)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:201)
+                                                                                                    	at android.os.Looper.loop(Looper.java:288)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:7842)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+2024-04-27 22:29:47.017  2478-2478  PackageManager          com.android.systemui                 W  Failure retrieving resources for fr.r0ro.android.FreeTelec
+2024-04-27 22:29:47.029  1087-1679  ProtoCrap               fr.r0ro.android.FreeTelec            I  addr: /192.168.1.102:6466
+2024-04-27 22:29:47.034  3851-3851  GoogleInpu...hodService com...gle.android.inputmethod.latin  I  GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=fr.r0ro.android.FreeTelec, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2131099783, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+2024-04-27 22:29:47.250  1087-1679  ClientTrustManager      fr.r0ro.android.FreeTelec            I  checkServerTrusted: trust everyone authType=ECDHE_RSA
+2024-04-27 22:29:47.304  1087-1579  BufferPoolAccessor2.0   fr.r0ro.android.FreeTelec            D  bufferpool2 0x7d880f8ee8 : 9(13271040 size) total buffers - 8(11796480 size) used buffers - 17/26 (recycle/alloc) - 10/28 (fetch/transfer)
+2024-04-27 22:29:47.304  1087-1579  BufferPoolAccessor2.0   fr.r0ro.android.FreeTelec            D  evictor expired: 1, evicted: 1
+2024-04-27 22:29:47.337  1087-1679  ProtoCrap               fr.r0ro.android.FreeTelec            E  SSLProtocolException: javax.net.ssl.SSLProtocolException: Read error: ssl=0x7d380e1b98: Failure in SSL library, usually a protocol error
+                                                                                                    error:10000416:SSL routines:OPENSSL_internal:SSLV3_ALERT_CERTIFICATE_UNKNOWN (external/boringssl/src/ssl/tls_record.cc:592 0x7ce80db7e0:0x00000003)
+2024-04-27 22:29:47.338  1087-1679  RemoteProtocol          fr.r0ro.android.FreeTelec            I  handshake error, most likely needs pairing
+2024-04-27 22:29:47.338  1087-1679  TelecAtv2               fr.r0ro.android.FreeTelec            I  start pairing
+2024-04-27 22:29:47.339  1087-1697  ClientCertificate       fr.r0ro.android.FreeTelec            I  create SSL Context
+2024-04-27 22:29:47.339  1087-1680  ProtoCrap               fr.r0ro.android.FreeTelec            W  connectionTx: InterruptedException: java.lang.InterruptedException
+2024-04-27 22:29:47.339  1087-1680  ProtoCrap               fr.r0ro.android.FreeTelec            I  connectionTx: DONE
+2024-04-27 22:29:47.339  1087-1697  ClientTrustManager      fr.r0ro.android.FreeTelec            I  trustManager: android.security.net.config.RootTrustManager@f1ab414
+2024-04-27 22:29:47.339  1087-1679  TelecAtv2               fr.r0ro.android.FreeTelec            I  onConnectionLost
+2024-04-27 22:29:47.364  1087-1697  ProtoCrap               fr.r0ro.android.FreeTelec            I  addr: /192.168.1.102:6467
+2024-04-27 22:29:47.404  1087-1697  ClientTrustManager      fr.r0ro.android.FreeTelec            I  checkServerTrusted: trust everyone authType=ECDHE_RSA
+2024-04-27 22:29:47.456  1087-1697  ProtoCrap               fr.r0ro.android.FreeTelec            I  HandshakeCompletedEvent: javax.net.ssl.HandshakeCompletedEvent[source=SSL socket over SSLSocket[address=/192.168.1.102,port=6467,localPort=48086]]
+2024-04-27 22:29:47.461  1087-1697  TelecAtv2               fr.r0ro.android.FreeTelec            I  pairing connection ready
+2024-04-27 22:29:47.464  1087-1697  com.google.protobuf.z1  fr.r0ro.android.FreeTelec            W  platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: sun.misc.Unsafe.copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+2024-04-27 22:29:47.591  1087-1697  TelecAtv2               fr.r0ro.android.FreeTelec            I  processIncomingMsg: # fr.r0ro.android.FreeTelec.protobuf.atvremote_pairing.Polo$PairingMessage@1aedd0c
+                                                                                                    pairing_request_ack {
+                                                                                                    }
+                                                                                                    protocol_version: 2
+                                                                                                    status: STATUS_OK
+                                                                                                    status_value: 200
+2024-04-27 22:29:47.707  1087-1697  TelecAtv2               fr.r0ro.android.FreeTelec            I  processIncomingMsg: # fr.r0ro.android.FreeTelec.protobuf.atvremote_pairing.Polo$PairingMessage@e2f24c01
+                                                                                                    options {
+                                                                                                      output_encodings {
+                                                                                                        symbol_length: 6
+                                                                                                        type: ENCODING_TYPE_HEXADECIMAL
+                                                                                                        type_value: 3
+                                                                                                      }
+                                                                                                      preferred_role: ROLE_TYPE_INPUT
+                                                                                                      preferred_role_value: 1
+                                                                                                    }
+                                                                                                    protocol_version: 2
+                                                                                                    status: STATUS_OK
+                                                                                                    status_value: 200
+2024-04-27 22:29:47.708  1087-1697  PairingProtocol         fr.r0ro.android.FreeTelec            I  supported output encoding: # fr.r0ro.android.FreeTelec.protobuf.atvremote_pairing.Polo$Options$Encoding@7de98
+                                                                                                    symbol_length: 6
+                                                                                                    type: ENCODING_TYPE_HEXADECIMAL
+                                                                                                    type_value: 3
+2024-04-27 22:29:47.821  1087-1697  TelecAtv2               fr.r0ro.android.FreeTelec            I  processIncomingMsg: # fr.r0ro.android.FreeTelec.protobuf.atvremote_pairing.Polo$PairingMessage@1aedd0c
+                                                                                                    configuration_ack {
+                                                                                                    }
+                                                                                                    protocol_version: 2
+                                                                                                    status: STATUS_OK
+                                                                                                    status_value: 200
+2024-04-27 22:29:47.837  1087-1087  AllCapsTra...tionMethod fr.r0ro.android.FreeTelec            W  Caller did not enable length changes; not transforming text
+2024-04-27 22:29:47.959  3851-3851  GoogleInpu...hodService com...gle.android.inputmethod.latin  I  GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=fr.r0ro.android.FreeTelec, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+2024-04-27 22:29:48.305  1087-1579  BufferPoolAccessor2.0   fr.r0ro.android.FreeTelec            D  bufferpool2 0x7d880f6e88 : 5(40960 size) total buffers - 0(0 size) used buffers - 17/23 (recycle/alloc) - 8/23 (fetch/transfer)
+2024-04-27 22:29:48.305  1087-1579  BufferPoolAccessor2.0   fr.r0ro.android.FreeTelec            D  evictor expired: 1, evicted: 1
+2024-04-27 22:29:49.641  1920-1942  NotificationService     system_server                        W  Toast already killed. pkg=fr.r0ro.android.FreeTelec token=android.os.BinderProxy@1bdef98
+2024-04-27 22:29:54.372  1087-1087  Compatibil...geReporter fr.r0ro.android.FreeTelec            D  Compat change id reported: 163400105; UID 10368; state: ENABLED
+2024-04-27 22:29:54.373  1087-1087  InputMethodManager      fr.r0ro.android.FreeTelec            D  showSoftInput() view=android.widget.EditText{2e6bb17 VFED..CL. .F.P..ID 0,0-936,124 aid=1073741826} flags=0 reason=SHOW_SOFT_INPUT
+2024-04-27 22:29:54.375  3851-3851  GoogleInpu...hodService com...gle.android.inputmethod.latin  I  GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=fr.r0ro.android.FreeTelec, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+2024-04-27 22:29:54.384  1087-1087  AssistStructure         fr.r0ro.android.FreeTelec            I  Flattened final assist data: 7212 bytes, containing 2 windows, 53 views
+2024-04-27 22:29:54.384  1920-3687  ContentCap...serService system_server                        D  Notified activity assist data for activity: Token{bb5719 ActivityRecord{aa3e3de u0 fr.r0ro.android.FreeTelec/.FreeTelecActivity t1463}} without a session Id
+2024-04-27 22:29:54.391  3851-3851  GoogleInpu...hodService com...gle.android.inputmethod.latin  I  GoogleInputMethodService.onStartInputView():2062 onStartInputView(EditorInfo{EditorInfo{packageName=fr.r0ro.android.FreeTelec, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+2024-04-27 22:29:54.396  3851-3851  AndroidIME              com...gle.android.inputmethod.latin  I  AbstractIme.onActivate():89 LatinIme.onActivate() : EditorInfo = EditorInfo{packageName=fr.r0ro.android.FreeTelec, inputType=1, inputTypeString=Normal, enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}, IncognitoMode = false, DeviceLocked = false
+2024-04-27 22:29:54.561 16716-22948 acoa                    com.google.android.gms.persistent    W  Infinite Data has no result for fr.r0ro.android.FreeTelec [CONTEXT service_id=177 ]
+2024-04-27 22:29:54.568 16716-23723 acoa                    com.google.android.gms.persistent    W  Infinite Data has no result for fr.r0ro.android.FreeTelec [CONTEXT service_id=177 ]
+2024-04-27 22:29:54.581  1087-1087  InsetsController        fr.r0ro.android.FreeTelec            D  show(ime(), fromIme=true)
+2024-04-27 22:30:07.454  1087-1087  PairingProtocol         fr.r0ro.android.FreeTelec            I  codeBytes: [-104, 107, -72]
+2024-04-27 22:30:07.457  1087-1143  OpenGLRenderer          fr.r0ro.android.FreeTelec            D  endAllActiveAnimators on 0x7db8167640 (RippleDrawable) with handle 0x7cc8127350
+2024-04-27 22:30:07.457  1920-3687  InputManager-JNI        system_server                        W  Input channel object '854b47c fr.r0ro.android.FreeTelec/fr.r0ro.android.FreeTelec.FreeTelecActivity (client)' was disposed without first being removed with the input manager!
+2024-04-27 22:30:07.505  1087-1087  IInputConnectionWrapper fr.r0ro.android.FreeTelec            W  requestCursorAnchorInfo on inactive InputConnection
+2024-04-27 22:30:07.514  1087-1697  TelecAtv2               fr.r0ro.android.FreeTelec            I  processIncomingMsg: # fr.r0ro.android.FreeTelec.protobuf.atvremote_pairing.Polo$PairingMessage@6c586d86
+                                                                                                    protocol_version: 2
+                                                                                                    secret_ack {
+                                                                                                      secret: "\230\231E\252\\\263ue\253\\\300\002w?\342\004\262WU^g:\304\231\366\330>\2658\326,\277"
+                                                                                                    }
+                                                                                                    status: STATUS_OK
+                                                                                                    status_value: 200
+2024-04-27 22:30:07.514  1087-1697  TelecAtv2               fr.r0ro.android.FreeTelec            I  Pairing success
+2024-04-27 22:30:07.514  1087-1698  ProtoCrap               fr.r0ro.android.FreeTelec            W  connectionTx: InterruptedException: java.lang.InterruptedException
+2024-04-27 22:30:07.514  1087-1698  ProtoCrap               fr.r0ro.android.FreeTelec            I  connectionTx: DONE
+2024-04-27 22:30:07.514  1087-1697  TelecAtv2               fr.r0ro.android.FreeTelec            I  pairing connection lost: PairingClient[192.168.1.102:6467]
+2024-04-27 22:30:07.514  1087-1697  TelecAtv2               fr.r0ro.android.FreeTelec            I  connect to 192.168.1.102:6466
+2024-04-27 22:30:07.515  1087-1697  ProtoCrap               fr.r0ro.android.FreeTelec            I  connectionRx: closing
+2024-04-27 22:30:07.515  1087-1738  ClientCertificate       fr.r0ro.android.FreeTelec            I  create SSL Context
+2024-04-27 22:30:07.516  1087-1738  ClientTrustManager      fr.r0ro.android.FreeTelec            I  trustManager: android.security.net.config.RootTrustManager@8c88a21
+2024-04-27 22:30:07.516  1087-1697  ProtoCrap               fr.r0ro.android.FreeTelec            I  connectionRx: DONE
+2024-04-27 22:30:07.519  3851-3851  GoogleInpu...hodService com...gle.android.inputmethod.latin  I  GoogleInputMethodService.onStartInput():1950 onStartInput(EditorInfo{EditorInfo{packageName=fr.r0ro.android.FreeTelec, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=2131099783, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+2024-04-27 22:30:07.535  1087-1738  ProtoCrap               fr.r0ro.android.FreeTelec            I  addr: /192.168.1.102:6466
+2024-04-27 22:30:07.592  1087-1738  ClientTrustManager      fr.r0ro.android.FreeTelec            I  checkServerTrusted: trust everyone authType=ECDHE_RSA
+2024-04-27 22:30:07.775  1087-1738  ProtoCrap               fr.r0ro.android.FreeTelec            I  HandshakeCompletedEvent: javax.net.ssl.HandshakeCompletedEvent[source=SSL socket over SSLSocket[address=/192.168.1.102,port=6466,localPort=48808]]
+2024-04-27 22:30:07.776  1087-1738  TelecAtv2               fr.r0ro.android.FreeTelec            I  onConnectionMade
+2024-04-27 22:30:07.784  1087-1738  TelecAtv2               fr.r0ro.android.FreeTelec            I  processIncomingMsg: # fr.r0ro.android.FreeTelec.protobuf.atvremote.Atvremote$RemoteMessage@e2313349
+                                                                                                    configure {
+                                                                                                      code1: 639
+                                                                                                      device_info {
+                                                                                                        app_version: "5.2.473254133"
+                                                                                                        model: "Freebox Player Mini v2"
+                                                                                                        package_name: "com.google.android.tv.remote.service"
+                                                                                                        unknown1: 1
+                                                                                                        unknown2: "7.1.1"
+                                                                                                        vendor: "Freebox"
+                                                                                                      }
+                                                                                                    }
+2024-04-27 22:30:08.147  1087-1738  TelecAtv2               fr.r0ro.android.FreeTelec            I  processIncomingMsg: # fr.r0ro.android.FreeTelec.protobuf.atvremote.Atvremote$RemoteMessage@1a1bf6a
+                                                                                                    set_active {
+                                                                                                    }
+2024-04-27 22:30:08.190  1087-1738  TelecAtv2               fr.r0ro.android.FreeTelec            I  processIncomingMsg: # fr.r0ro.android.FreeTelec.protobuf.atvremote.Atvremote$RemoteMessage@82f69
+                                                                                                    40: "\b\001"
+2024-04-27 22:30:08.637  1087-1738  TelecAtv2               fr.r0ro.android.FreeTelec            I  processIncomingMsg: # fr.r0ro.android.FreeTelec.protobuf.atvremote.Atvremote$RemoteMessage@d0f7d505
+                                                                                                    set_volume_level {
+                                                                                                      1: 20
+                                                                                                      2: 9
+                                                                                                      3: "Freebox Player Mini v2"
+                                                                                                      4: 1
+                                                                                                    }
+2024-04-27 22:30:09.385  1087-1738  TelecAtv2               fr.r0ro.android.FreeTelec            I  processIncomingMsg: # fr.r0ro.android.FreeTelec.protobuf.atvremote.Atvremote$RemoteMessage@84936c0e
+                                                                                                    ime_key_inject {
+                                                                                                      app_info {
+                                                                                                        app_package: "com.google.android.leanbacklauncher"
+                                                                                                      }
+                                                                                                    }
+2024-04-27 22:30:48.057  1087-1087  Ads                     fr.r0ro.android.FreeTelec            I  Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("DB15FE3785C1B9F724971E6CAF725986")) to get test ads on this device.
+2024-04-27 22:30:48.090  1087-1087  ConnectionStatusConfig  fr.r0ro.android.FreeTelec            W  Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.CACHE
+2024-04-27 22:30:48.103  1087-1766  ConnectionStatusConfig  fr.r0ro.android.FreeTelec            W  Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.START
+2024-04-27 22:30:49.038  1087-1087  Ads                     fr.r0ro.android.FreeTelec            E  JS: Uncaught TypeError: Cannot read properties of undefined (reading 'getPage') (https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/16032564963167961088/index.html:145)
+2024-04-27 22:31:19.715  1087-1087  ProtoCrap               fr.r0ro.android.FreeTelec            W  failed to extract box model from: CN=atvremote/863600S191201703, DNQ=full_fbx6lcv2/fbx6lcv2/Freebox Player Mini v2
+2024-04-27 22:31:19.716  1087-1087  TelecAtv2               fr.r0ro.android.FreeTelec            I  getStbModel: null
+2024-04-27 22:31:19.716  1087-1087  InputEventReceiver      fr.r0ro.android.FreeTelec            E  Exception dispatching input event.
+2024-04-27 22:31:19.716  1087-1087  MessageQueue-JNI        fr.r0ro.android.FreeTelec            E  Exception in MessageQueue callback: handleReceiveCallback
+2024-04-27 22:31:19.724  1087-1087  MessageQueue-JNI        fr.r0ro.android.FreeTelec            E  java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.hashCode()' on a null object reference
+                                                                                                    	at fr.r0ro.android.FreeTelec.m.f(TelecAtv2.java:9)
+                                                                                                    	at fr.r0ro.android.FreeTelec.i.onTouch(TelecActivity.java:15)
+                                                                                                    	at android.view.View.dispatchTouchEvent(View.java:14536)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at com.android.internal.policy.DecorView.superDispatchTouchEvent(DecorView.java:502)
+                                                                                                    	at com.android.internal.policy.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:1890)
+                                                                                                    	at android.app.Activity.dispatchTouchEvent(Activity.java:4196)
+                                                                                                    	at com.android.internal.policy.DecorView.dispatchTouchEvent(DecorView.java:460)
+                                                                                                    	at android.view.View.dispatchPointerEvent(View.java:14799)
+                                                                                                    	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:6344)
+                                                                                                    	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:6145)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:5623)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:5680)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:5646)
+                                                                                                    	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:5811)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:5654)
+                                                                                                    	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:5868)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:5627)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:5680)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:5646)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:5654)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:5627)
+                                                                                                    	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:8558)
+                                                                                                    	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:8509)
+                                                                                                    	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:8478)
+                                                                                                    	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:8681)
+                                                                                                    	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:259)
+                                                                                                    	at android.os.MessageQueue.nativePollOnce(Native Method)
+                                                                                                    	at android.os.MessageQueue.next(MessageQueue.java:335)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:161)
+                                                                                                    	at android.os.Looper.loop(Looper.java:288)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:7842)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+--------- beginning of crash
+2024-04-27 22:31:19.725  1087-1087  AndroidRuntime          fr.r0ro.android.FreeTelec            D  Shutting down VM
+2024-04-27 22:31:19.725  1087-1087  AndroidRuntime          fr.r0ro.android.FreeTelec            E  FATAL EXCEPTION: main
+                                                                                                    Process: fr.r0ro.android.FreeTelec, PID: 1087
+                                                                                                    java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.hashCode()' on a null object reference
+                                                                                                    	at fr.r0ro.android.FreeTelec.m.f(TelecAtv2.java:9)
+                                                                                                    	at fr.r0ro.android.FreeTelec.i.onTouch(TelecActivity.java:15)
+                                                                                                    	at android.view.View.dispatchTouchEvent(View.java:14536)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3120)
+                                                                                                    	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2744)
+                                                                                                    	at com.android.internal.policy.DecorView.superDispatchTouchEvent(DecorView.java:502)
+                                                                                                    	at com.android.internal.policy.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:1890)
+                                                                                                    	at android.app.Activity.dispatchTouchEvent(Activity.java:4196)
+                                                                                                    	at com.android.internal.policy.DecorView.dispatchTouchEvent(DecorView.java:460)
+                                                                                                    	at android.view.View.dispatchPointerEvent(View.java:14799)
+                                                                                                    	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:6344)
+                                                                                                    	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:6145)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:5623)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:5680)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:5646)
+                                                                                                    	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:5811)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:5654)
+                                                                                                    	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:5868)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:5627)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:5680)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:5646)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:5654)
+                                                                                                    	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:5627)
+                                                                                                    	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:8558)
+                                                                                                    	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:8509)
+                                                                                                    	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:8478)
+                                                                                                    	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:8681)
+                                                                                                    	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:259)
+                                                                                                    	at android.os.MessageQueue.nativePollOnce(Native Method)
+                                                                                                    	at android.os.MessageQueue.next(MessageQueue.java:335)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:161)
+                                                                                                    	at android.os.Looper.loop(Looper.java:288)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:7842)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+2024-04-27 22:31:19.725  1087-1087  AndroidRuntime          fr.r0ro.android.FreeTelec            E  	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+2024-04-27 22:31:19.792  1920-3943  ActivityTaskManager     system_server                        W    Force finishing activity fr.r0ro.android.FreeTelec/.FreeTelecActivity
+2024-04-27 22:31:19.802  1087-1087  Process                 fr.r0ro.android.FreeTelec            I  Sending signal. PID: 1087 SIG: 9
+2024-04-27 22:31:19.847  1920-3687  ActivityManager         system_server                        W  Scheduling restart of crashed service fr.r0ro.android.FreeTelec/org.chromium.content.app.SandboxedProcessService0:0 in 1000ms for connection
+2024-04-27 22:31:19.848  1920-3922  WindowManager           system_server                        I  WIN DEATH: Window{2017d68 u0 fr.r0ro.android.FreeTelec/fr.r0ro.android.FreeTelec.FreeTelecActivity}
+2024-04-27 22:31:19.849  1920-3922  InputManager-JNI        system_server                        W  Input channel object '2017d68 fr.r0ro.android.FreeTelec/fr.r0ro.android.FreeTelec.FreeTelecActivity (client)' was disposed without first being removed with the input manager!
+2024-04-27 22:31:19.849  1920-2403  ConnectivityService     system_server                        D  releasing NetworkRequest [ REQUEST id=1812, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ] (release request)
+2024-04-27 22:31:19.849  1920-2403  ConnectivityService     system_server                        D  releasing NetworkRequest [ REQUEST id=1814, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ] (release request)
+2024-04-27 22:31:19.850  1920-2403  ConnectivityService     system_server                        D  releasing NetworkRequest [ REQUEST id=1819, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ] (release request)
+2024-04-27 22:31:19.850  1920-2403  ConnectivityService     system_server                        D  releasing NetworkRequest [ REQUEST id=1817, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10368 RequestorUid: 10368 RequestorPkg: fr.r0ro.android.FreeTelec UnderlyingNetworks: Null] ] (release request)
+2024-04-27 22:31:19.855  1920-1942  ActivityManager         system_server                        I  Process fr.r0ro.android.FreeTelec (pid 1087) has died: fg +50 TOP 
+2024-04-27 22:31:19.861  1920-1942  ActivityManager         system_server                        W  Scheduling restart of crashed service fr.r0ro.android.FreeTelec/.WearableListener in 1000ms for start-requested
+2024-04-27 22:31:20.294  1920-2041  ActivityTaskManager     system_server                        W  Activity top resumed state loss timeout for ActivityRecord{aa3e3de u0 fr.r0ro.android.FreeTelec/.FreeTelecActivity t-1 f}}
+2024-04-27 22:31:20.820  1920-2050  ActivityManager         system_server                        I  Start proc 1857:fr.r0ro.android.FreeTelec/u0a368 for service {fr.r0ro.android.FreeTelec/com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService}
+2024-04-27 22:31:20.868  1920-2391  ActivityManager         system_server                        W  Stopping service due to app idle: u0a368 -1m44s927ms fr.r0ro.android.FreeTelec/.WearableListener
+2024-04-27 22:31:20.899  1857-1857  ziparchive              pid-1857                             W  Unable to open '/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.arm64_v8a.dm': No such file or directory
+2024-04-27 22:31:20.899  1857-1857  ziparchive              pid-1857                             W  Unable to open '/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.arm64_v8a.dm': No such file or directory
+2024-04-27 22:31:20.902  1857-1857  ziparchive              pid-1857                             W  Unable to open '/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.fr.dm': No such file or directory
+2024-04-27 22:31:20.902  1857-1857  ziparchive              pid-1857                             W  Unable to open '/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.fr.dm': No such file or directory
+2024-04-27 22:31:20.903  1857-1857  ziparchive              pid-1857                             W  Unable to open '/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.xxhdpi.dm': No such file or directory
+2024-04-27 22:31:20.903  1857-1857  ziparchive              pid-1857                             W  Unable to open '/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.xxhdpi.dm': No such file or directory
+2024-04-27 22:31:20.907  1857-1857  nativeloader            pid-1857                             D  Configuring clns-4 for other apk /data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/base.apk:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.arm64_v8a.apk:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.fr.apk:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.xxhdpi.apk. target_sdk_version=32, uses_libraries=, library_path=/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/lib/arm64:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/base.apk!/lib/arm64-v8a:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r0ro.android.FreeTelec-Q-y1V7vVVCwhc9P_2iKokg==/split_config.fr.apk!/lib/arm64-v8a:/data/app/~~NttrxjwhKrcWCoNZl1cmgQ==/fr.r
+2024-04-27 22:31:20.922  1857-1857  GraphicsEnvironment     pid-1857                             V  ANGLE Developer option for 'fr.r0ro.android.FreeTelec' set to: 'default'
+2024-04-27 22:31:20.945  1857-1857  FirebaseCrashlytics     pid-1857                             I  Initializing Firebase Crashlytics 18.2.11 for fr.r0ro.android.FreeTelec
+2024-04-27 22:31:21.027  1857-1857  FreeTelecApp            pid-1857                             I  ON CREATE
+2024-04-27 22:31:21.042  1920-2391  ActivityManager         system_server                        W  Background started FGS: Disallowed [callingPackage: fr.r0ro.android.FreeTelec; callingUid: 10368; uidState: TRNB; intent: Intent { cmp=fr.r0ro.android.FreeTelec/.WearableListener }; code:DENIED; tempAllowListReason:<null>; targetSdkVersion:32; callerTargetSdkVersion:32; startForegroundCount:0; bindFromPackage:null]
+2024-04-27 22:31:21.044  1920-2391  ActivityManager         system_server                        W  startForegroundService() not allowed due to mAllowStartForeground false: service fr.r0ro.android.FreeTelec/.WearableListener
+2024-04-27 22:31:21.046  1857-1857  FreeTelecApp            pid-1857                             E  failed to start wearable listener service: android.app.ForegroundServiceStartNotAllowedException: startForegroundService() not allowed due to mAllowStartForeground false: service fr.r0ro.android.FreeTelec/.WearableListener
+2024-04-27 22:31:21.142  1857-1906  FA                      pid-1857                             I  To enable faster debug mode event logging run:
+                                                                                                      adb shell setprop debug.firebase.analytics.app fr.r0ro.android.FreeTelec
+2024-04-27 22:31:22.593  1857-1895  TRuntime.C...ortBackend fr.r0ro.android.FreeTelec            I  Status Code: 200
